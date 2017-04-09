@@ -1,0 +1,232 @@
+::-webkit-scrollbar{  
+	height: 0px;
+	width: 0px;
+} 
+body {
+	background-color: #efeff4;
+	margin-bottom: 2.666667rem;
+}
+
+.mui-slider{
+	position:relative;
+}
+
+.iconBox{
+	position:relative;
+}
+.iconBox .iconwhite{
+	position:absolute;
+	margin: 0 auto;
+	bottom:0.266667rem;
+	display:inline-block;
+	background:#fff;
+ width:0.266667rem;
+ height:0.266667rem;
+ border:2px solid #ffffff;
+ border-radius:50%;
+
+}
+
+.announce {
+	padding-left: 0.32rem;
+	background-color: #FFFFFF;
+}
+
+.announceList {
+	padding-left: 0;
+	font-size: 0.32rem;
+	margin: 0;
+}
+
+.announceLi {
+	list-style: none;
+	line-height: 0.8rem;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+}
+.announceLi a{
+	color:#444444;
+}
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.066667rem;
+}
+
+.icon-horn {
+	height: 0.293333rem;
+	width: 0.32rem;
+	background: url('../imgs/icons/horn.png');
+	background-size:0.32rem;
+}
+
+.contentbox {
+	margin: 0px 0.32rem 0.266667rem;
+}
+
+.mortgageCard {
+	background-color: #fff;
+	text-align: center;
+	line-height: 1;
+	margin-top: 0.293333rem;
+	padding-bottom: 0.266667rem;
+	position: relative;
+}
+
+.mortgageCard:before {
+	content: "";
+	position: absolute;
+	top: -0.106667rem;
+	left: 0px;
+	right: 0px;
+	width: 3.133333rem;
+	margin: 0 auto;
+	border-bottom: 0.106667rem solid #fff;
+	border-left: 0.213333rem solid transparent;
+	border-right: 0.213333rem solid transparent;
+}
+
+.mortgageCard h3 {
+	padding: 0.24rem 0 0.4rem;
+	font-size: 0.4rem;
+	color: #fc8800;
+}
+
+.mortgageCard2 h3 {
+	color: #0ea3f0;
+}
+
+.mortgage-rate {
+	font-size: 36px;
+}
+
+.rate {
+	font-size: 1.2rem;
+}
+
+.rate-sub {
+	padding-top: 0.333333rem;
+	padding-bottom: 0.306667rem;
+	font-size: 0.32rem;
+}
+
+.card-btn {
+	height: 1.173333rem;
+	line-height: 1.173333rem;
+	width: 7.2rem;
+	margin: 0px auto;
+	background-color: #fc8800;
+	color: #fff;
+	font-size: 0.533333rem;
+	border-radius: 0.133333rem;
+}
+
+.mortgageCard2 .card-btn {
+	background-color: #0ea3f0;
+}
+
+.icon-house {
+	height: 0.48rem;
+	width: 0.546667rem;
+	background: url('../imgs/icons/house.png');
+	background-size:0.546667rem;
+	margin-right: 0.133333rem;
+	vertical-align: -4%;
+}
+
+.commission {
+	position: fixed;
+	line-height: 0.933333rem;
+	text-align: center;
+	background-color: #fbfbfb;	
+	bottom: 1.306667rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 0.293333rem;	
+}
+
+.agentWraper {
+	display: inline-block;
+	color: #444444;
+	font-size: 0.346667rem;
+}
+
+.fa-icon {
+	font-size: 0.133333rem;
+	color: #bfbfbf;
+	vertical-align: super;
+	margin: 0 0.2rem;
+}
+
+#fixedBottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height:1.333333rem;
+	text-align: center;
+	font-size: 0.293333rem;
+	background-color: #fff;
+	border-top: 1px solid #e7e7e7;
+}
+
+.btmbox {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+.btmbox span{
+	margin-top:-0.2rem;
+	display:block;
+	color:#b5b5b5;
+	font-size:0.293333rem;
+}
+
+.btmbox0 {
+	float: left;
+}
+
+.btmbox2 {
+	float: right;
+}
+
+
+.btmIcon0 {
+	background-image: url('../imgs/icons/house1.png');
+	background-size:0.586667rem;
+}
+.btmIcon0-0 {
+	background-image: url('../imgs/icons/house1-blue.png');
+	background-size:0.586667rem;
+}
+
+.btmIcon1 {
+	background-image: url('../imgs/icons/person.png');
+	background-size:0.4rem;
+}
+.btmIcon1-1 {
+	background-image: url('../imgs/icons/person-blue.png');
+	background-size:0.4rem;
+}
+
+.btmIcon2 {
+	background-image: url('../imgs/icons/assistant.png');
+	background-size:0.586667rem;
+}
+
+.btmIcon2-2 {
+	background-image: url('../imgs/icons/assistant-blue.png');
+	background-size:0.586667rem;
+}
+
+
+.btmIcon {
+	display: inline-block;
+	height: 0.666667rem;
+	width: 0.8rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top:0.106667rem;
+}

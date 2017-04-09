@@ -1,0 +1,324 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	background:url(../imgs/login/logo-bg.jpg);
+	background-size:cover;
+}
+.login-header{
+	position:relative;
+	text-align: center;
+	height:1.173333rem;
+	line-height:1.173333rem;
+	font-size: 0.48rem;
+	color: #ffffff;
+}
+.header-back:before, .header-back:after{
+	position: absolute;
+	top: 0.333333rem;
+	left: 0.2rem;
+	width: 0;
+	height: 0;
+	border: 0.253333rem solid transparent;
+	border-right:0.253333rem solid #ffffff;
+	content: ' ';
+}
+.header-back:after{
+	left: 0.226667rem;
+	border-right:0.253333rem solid #0de0f0;	
+}
+.login-cancel{
+	position: absolute;
+	width:0.4rem;
+	height:0.4rem;
+	background: url(../imgs/login/login-cancel.png) no-repeat center;
+	background-size:0.4rem ;
+	top:0.36rem;
+	left:0.466667rem;
+}
+
+
+
+
+
+/*login-code*/
+.login-logo{
+	height:35%;          /*510px*/
+	background:url(../imgs/login/login-logo.png) no-repeat center;
+	background-size: 2.68rem ;
+}
+.login-ul{
+	text-align: center;
+}
+.login-ul li{
+	padding-top: 0.533333rem;
+	width:7.733333rem;
+	margin: 0 auto;
+}
+.login-ul li:after{
+	 content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.loginimg{
+	width:0.746667rem;
+	height: 0.53333rem;
+	float:left ;
+}
+.login-user{
+	background: url(../imgs/login/mu1.gif) no-repeat left top;
+	background-size:0.613333rem;
+}
+.login-mail{
+	background:url(../imgs/login/yanzhengma.gif) no-repeat left top;
+	background-size:0.613333rem;
+}
+.login-phone{
+	float: right;
+	width:6.933333rem;
+	height:0.613333rem;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom:0.213333rem;
+	position: relative;
+}
+.login-phone input{
+	float: left;
+	height:0.453333rem;
+	line-height:0.413333rem;
+	font-size:0.4rem;
+	background: none;
+	border: 0;
+	padding-left: 0;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	padding: 0;
+}
+.verification-code{
+	position:relative;
+}
+.verification-code input{
+	width:4.48rem;
+	border-right:1px solid #ffffff ;
+}
+
+.verification-code i{
+	position: absolute;
+	width:0.426667rem;
+	height:0.426667rem;
+	right:2.666667rem;
+	background:url('../imgs/login/login-del.png') no-repeat center center;
+	background-size:0.426667rem;
+}
+
+.countdown-wrap{
+	height: 0.453333rem;
+	line-height:0.4rem;
+}
+.countdown{
+	font-size:0.373333rem;
+	color:#b7e9fb;
+}
+
+
+
+.eye-white{
+	position: absolute;
+	width:0.413333rem ;
+	height:1.1rem;
+	background: red;
+	right: 0;
+	margin-top: -0.533333rem;
+}
+.eye-open-white{
+	background: url(../imgs/login/eye-open-white.png) no-repeat right 0.65rem;
+	background-size:0.413333rem ;
+}
+
+
+.eye-close-white{
+	background: url(../imgs/login/eye-close-white.png) no-repeat right 0.65rem;
+	background-size:0.413333rem ;
+}
+
+
+.again-login{
+	padding-top:0.4rem;
+	margin-bottom:0.933333rem;
+}
+.again-login a{
+	display: block;
+	width:7.733333rem;
+	text-align: right;
+	font-size:0.32rem;
+	color: #ffffff;
+	margin: 0 auto;
+}
+
+/*login btn*/
+.login-btnbox{
+	width:100%;
+	padding: 0 1.133333rem;
+	height:1.173333rem;
+	line-height:1.173333rem;
+	text-align: center;
+}
+.login-btn{
+	display: block;
+	width:100%;
+	height: 100%;
+	border-radius: 0.133333rem;
+	color:#0ea3f0;
+	font-size:0.4rem;
+	background-color:#FFFFFF ;
+	opacity:0.6;
+}
+.login-active{
+	opacity:1;
+}
+
+
+
+
+
+
+
+
+
+/***************************register-password***************************/
+.login-lock{
+	background: url(../imgs/login/password.gif) no-repeat left center;
+	background-size:0.613333rem;
+}
+.login-psd input{
+	width:80%;
+}
+.login-psd i{
+	position: absolute;
+	width:0.426667rem;
+	height:0.426667rem;
+	right: 0.666667rem;
+	background:url('../imgs/login/login-del.png') no-repeat center center;
+	background-size:0.426667rem;
+}
+
+
+/*register-step1*/
+.login-del{
+	position: relative;
+}
+.login-del i{
+	position: absolute;
+	width:0.426667rem;
+	height:0.426667rem;
+	right: 0;
+	background:url('../imgs/login/login-del.png') no-repeat center center;
+	background-size:0.426667rem;
+}
+
+.promise-box{
+	padding:0.133333rem 0 2.24rem;
+	width:7.733333rem;
+	margin: 0 auto;
+}
+.promise-box span{
+	display:inline-block;
+	font-size:0.293333rem;
+	padding-left:1.0rem;
+	color: #b7eafa;
+	background: url(../imgs/login/login-insure.png) no-repeat 0.6rem;
+	background-size:0.266667rem;
+}
+
+
+
+/***********************login-win*******************/
+.login-logo-win{
+	background: url(../imgs/login/login-win.png) no-repeat center;
+	background-size:4.96rem;
+	height:43.5%;
+}
+.login-ul-win li{
+	height:0.733333rem;
+	text-align: center;
+	font-size:0.373333rem;
+	color:#ffffff;
+}
+.login-ul-win{
+	margin-bottom:20%;
+}
+/***********************login*******************/
+.login-phone-box{
+	padding:2.133333rem 1.76rem;
+	text-align: center;
+}
+.login-phone-ul li{
+	height:0.733333rem;
+	line-height: 0.733333rem;
+	font-size:0.346667rem;
+	color: #ffffff;
+	position: relative;
+}
+.phone-img{
+	display: inline-block;
+	width: 0.293333rem;
+	height: 0.733333rem;
+	margin-right:0.266667rem;
+	background:url(../imgs/login/phone-img.png) no-repeat center;
+	background-size:0.293333rem;
+}
+.login-phone-ul li span{
+    vertical-align: top;
+}
+
+.login-mail-open{
+	background:url(../imgs/login/yanzhengma.gif) no-repeat left center;
+	background-size:0.613333rem;
+}
+.company-code{
+	background: url(../imgs/login/company.gif) no-repeat left center;
+	background-size:0.613333rem;
+}
+.login-wrap-login{
+	margin-bottom:1.893333rem;
+	padding: 0 0.453333rem;
+}
+.login-agreement{
+	text-align: center;
+	font-size: 0.293333rem;
+	color: #ffffff;
+	margin-top:0.293333rem;
+	opacity:0.7;
+}
+
+
+
+/* nickname */
+.white-header a{
+	position: absolute;
+	float: right;
+	margin-right: 0.453333rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

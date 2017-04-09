@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>云单中心</title>
+		<meta name="apple-mobile-web-app-title" content="云单中心">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/order.css?v=20160606" />
+	</head>
+
+	<body>
+		<div class="header blue-header">
+				<a href="#" class="header-white-icon"></a>
+				<span class="header-back-white">
+					云单中心
+				</span>
+		</div>
+		<div class="order-tap order-tap-five">
+			<ul>
+				<li class="order-tap-on">
+					<span class="order-tap-name">全部</span>
+				</li>
+				<li>
+					<span class="order-tap-name">待抢单</span>
+				</li>
+				<li>
+					<span class="order-tap-name">跟进中</span>
+				</li>
+				<li>
+					<span class="order-tap-name">已签单</span>
+				</li>
+				<li>
+					<span class="order-tap-name">无效单</span>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="order-topcon">
+			<div>
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-doing"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-done"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-undo"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+				<div class="cloud-list-headimg">
+					<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+				</div>
+				<div class="cloud-list-main">
+					<div class="cloud-list-user">
+						<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+						<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+					</div>
+					<div class="cloud-list-msg">
+						<i class="cloud-list-house"></i> 
+						<div class="cloud-list-msgtxt">
+							<i>90万</i><i>60天</i><i>12%</i>
+						</div>
+					</div>
+					<div class="cloud-list-msg">
+						<i class="order-list-addricon"></i>
+						<div class="cloud-list-msgtxt">北京-朝阳</div>
+					</div>
+					<div class="cloud-list-remark">
+						客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+					</div>
+				</div>
+			</div>
+			</div>
+			<div style="display: none;">
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+				<div class="cloud-list-headimg">
+					<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+				</div>
+				<div class="cloud-list-main">
+					<div class="cloud-list-user">
+						<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+						<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+					</div>
+					<div class="cloud-list-msg">
+						<i class="cloud-list-house"></i> 
+						<div class="cloud-list-msgtxt">
+							<i>90万</i><i>60天</i><i>12%</i>
+						</div>
+					</div>
+					<div class="cloud-list-msg">
+						<i class="order-list-addricon"></i>
+						<div class="cloud-list-msgtxt">北京-朝阳</div>
+					</div>
+					<div class="cloud-list-remark">
+						客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+					</div>
+				</div>
+			</div>
+			</div>
+			<div style="display: none;">
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-doing"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-doing"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div style="display: none;">
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-done"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-done"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div style="display: none;">
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-undo"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-undo"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+				<div class="cloud-list-item">
+					<div class="cloud-list-headimg">
+						<img src="../static/imgs/ordercar1.png" width="130" height="130" />
+					</div>
+					<div class="cloud-list-main">
+						<div class="cloud-list-user">
+							<span class="cloud-list-username">张一山</span><i class="cloud-usericon"></i>
+							<span class="cloud-list-owner">彩虹</span><span class="cloud-list-time">1分钟前</span>
+							<i class="cloud-list-status cloud-list-undo"></i>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="cloud-list-house"></i> 
+							<div class="cloud-list-msgtxt">
+								<i>90万</i><i>60天</i><i>12%</i>
+							</div>
+						</div>
+						<div class="cloud-list-msg">
+							<i class="order-list-addricon"></i>
+							<div class="cloud-list-msgtxt">北京-朝阳</div>
+						</div>
+						<div class="cloud-list-remark">
+							客服备注：客户交流中回避关键问题，大家仔细大家仔细大家仔细
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</body>
+	<script src="../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/mui/js/mui.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+	<script src="../static/js/public.js?v=20160603" type="text/javascript"></script>
+	<script src="../static/js/order.js?v=20160606" type="text/javascript" charset="utf-8"></script>
+
+</html>

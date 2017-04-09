@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>提现卡</title>
+		<meta name="apple-mobile-web-app-title" content="提现卡">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/mine.css?v=20160606" />
+	</head>
+
+	<body>
+		<div class="header blue-header">
+				<a href="#" class="header-white-icon"></a>
+				<span class="header-back">
+					提现
+				</span>
+		</div>
+		<div class="withdraw-form withdraw-bluebg">
+				<ul>
+					<li><span class="withdraw-name">可提现金额</span><span class="withdraw-txt">2,000.00 元</span></li>
+					<li><span class="withdraw-name">提现银行卡</span><span class="withdraw-txt">招商银行（8888）</span></li>
+					<li class="noborder"><input type="text" placeholder="请输入提现金额" /></li>
+				</ul>
+		</div>
+		<div class="withdraw-tip">提现手续费：2.00元</div>
+		<div class="order-btn-gap mb60"><input type="button" class="order-btn-gray" value="确认提现" /></div>
+		<div class="withdraw-safe">
+			<span class="withdraw-safeicon"></span>
+			<span class="withdraw-safetxt">账户资金安全由京东支付进行监管</span>
+		</div>
+		
+		<div class="banktip">
+				<span class="banktip-icon"></span>
+				<span class="banktip-txt">
+					温馨提示<br />
+					1. 单笔提现金额2.01元起，最多5万；<br />
+					 2. 提现手续费：每笔2.00元；<br />
+					 3. 到账时间：T+1个工作日到账，最快2小时到账；
+				</span>
+		</div>
+
+	</body>
+	<script src="../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/mui/js/mui.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+ 	<script src="../static/js/public.js?v=20160603" type="text/javascript"></script>
+ 	<script src="../static/js/withdraw.js?v=20160603" type="text/javascript"></script>
+ 
+</html>

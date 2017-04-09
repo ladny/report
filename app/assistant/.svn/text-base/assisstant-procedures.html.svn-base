@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>办理流程</title>
+		<meta name="apple-mobile-web-app-title" content="办理流程">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link href="../../static/common/mui/css/mui.picker.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/assistant.css" />
+	</head>
+
+	<body>
+		<div class="header blue-header">
+			<a href="#" class="header-white-icon"></a>
+			<span class="header-back-white">办理流程</span>
+		</div>
+
+		<div class="assistant-procedures">
+			<ul class="assistant-list">
+				<li>
+					<span class="assistant-list-imgbg assistant-list-img1"></span>
+						<span class="assisstant-listcon">
+							1.申请评估
+							<p>提交<a href="javascript:;">我要评房</a>、<a href="javascript:;">我要评车</a>申请</p>
+						</span>
+				</li>
+				<li>
+						<span class="assistant-list-imgbg assistant-list-img2"></span>
+						<span class="assisstant-listcon">
+							2.在线估值
+							<p>在线估值，免费反馈估值结果</p>
+						</span>
+				</li>
+				<li>
+						<span class="assistant-list-imgbg assistant-list-img3"></span>
+						<span class="assisstant-listcon">
+							3.电话预约及材料准备
+							<p><a href="javascript:;">电话预约</a>、<a href="javascript:;">备齐材料</a>，加快业务进度</p>
+						</span>
+				</li>
+				<li>
+						<span class="assistant-list-imgbg assistant-list-img4"></span>
+						<span class="assisstant-listcon">
+							4.业务办理
+							<p>家访、公正、抵押，最快当天可完成若抵押物为车辆需安装GPS</p>
+
+
+						</span>
+				</li>
+				<li>
+						<span class="assistant-list-imgbg assistant-list-img5"></span>
+						<span class="assisstant-listcon">
+							5.完成放款
+							<p>快速放款，满足客户资金需求</p>
+						</span>
+				</li>
+				<li>
+						<span class="assistant-list-imgbg assistant-list-img6"></span>
+						<span class="assisstant-listcon">
+							6.返佣赚钱
+							<p>放款、还款及时返佣，快速提现根据约定的返佣方式进行返佣</p>
+						</span>
+				</li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="order-serve-tel order-serve-handing">
+			<div class="order-serve-bg">
+				400-999-9898<br /> 工作日:9:00~17:00
+			</div>
+		</div>
+	</body>
+	<script src="../../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/common/mui/js/mui.min.js"></script>
+	<script src="../../static/common/mui/js/mui.picker.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+<!--	<script src="../../static/js/public.js?v=20160603" type="text/javascript"></script>-->
+	<script src="../../static/js/assisstant.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

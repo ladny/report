@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>提现卡</title>
+		<meta name="apple-mobile-web-app-title" content="提现卡">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/mine.css?v=20160606" />
+	</head>
+
+	<body>
+		<div class="header white-header">
+				<a href="#" class="header-gray-icon"></a>
+				<span class="header-back">
+					设置提现卡
+				</span>
+		</div>
+		<div class="withdraw-form withdraw-formlist mt20 mb60">
+				<ul>
+					<li><input type="text" placeholder="请输入真实姓名" /></li>
+					<li><input type="text" placeholder="请输入身份证号" /></li>
+					<li><input type="text" placeholder="请输入银行卡号" /><i class="bank-listicon"></i></li>
+					<li><input type="text" placeholder="请输入银行预留手机号" /></li>
+				</ul>
+		</div>
+		<div class="order-btn-gap mb60"><input type="button" class="order-btn-gray" value="下一步" /></div>
+		
+		<div class="banktip">
+				<span class="banktip-icon"></span>
+				<span class="banktip-txt">
+					温馨提示<br />
+					1.为保障您的资金安全，仅支持您本人名下的银行卡；<br />
+					2.绑定银行卡后将作为您的唯一提现卡；
+				</span>
+		</div>
+
+	</body>
+	<script src="../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/mui/js/mui.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+ 	<script src="../static/js/public.js?v=20160603" type="text/javascript"></script>
+ 	<script src="../static/js/withdraw.js?v=20160603" type="text/javascript"></script>
+ 
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>提现卡</title>
+		<meta name="apple-mobile-web-app-title" content="提现卡">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../static/css/mine.css?v=20160606" />
+	</head>
+
+	<body>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/index.html">index</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/cloudcenter.html">cloudcenter</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/cloudlist.html">cloudlist</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/cloudresult.html">cloudresult</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/usercenter.html">usercenter</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/withdraw.html">withdraw</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/withdraw-fail.html">withdraw-fail</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/withdraw-init.html">withdraw-init</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/withdraw-setup.html">withdraw-setup</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/withdraw-suc.html">withdraw-suc</a></p>
+		<p class="line">-----------------我的助手-------------------</p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/assistant/assistant.html">assistant</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/assistant/assistant-list.html">assistant-list</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/assistant/car-pledge-data.html">car-pledge-data</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/assistant/cpcc-checkaddress.html">cpcc-checkaddress</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/assistant/handling-procedures.html">handling-procedures</a></p>
+		<p class="line">-----------------登录-------------------</p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/change-password.html">修改密码</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/login.html">登录</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/login-win.html">登录成功</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/register-password.html">密码登录</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/register-sms- verify.html">验证码登录</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/register-telphone.html">手机号</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/login/resetpassword.html">重置密码</a></p>
+		<p class="line">-----------------我得信息-------------------</p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/change-mobile-number.html">修改手机号</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/change-password.html">修改密码</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/check-mobile-win.html">检查手机号</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/my-profile.html">我的资料</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/nickname.html">我得昵称</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/ realnameinformation_certified.html">实名认证信息</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/resetpassword.html">重置密码</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/my_information/safety-check.html">安全检查</a></p>
+		<p class="line">-----------------我的订单-------------------</p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/loanrequire.html">loanrequire</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/loanrequiremsg.html">loanrequiremsg</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderdetail.html">订单详细</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderdetailmsg.html">订单详细</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderestimate.html">orderestimate</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderestimate-nomoney.html">orderestimate-nomoney</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderinvaild.html">orderinvaild</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderlist.html">orderlist</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderloan.html">orderloan</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderloaner.html">orderloaner</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderlogdetail.html">orderlogdetail</a></p>
+		<p class="line"><a href="http://192.168.112.110:8020/sqjr_oa/app/order/orderresult.html">orderresult</a></p>
+
+	</body>
+	<script src="../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/common/mui/js/mui.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+ 	<script src="../static/js/public.js?v=20160603" type="text/javascript"></script>
+ 	<script src="../static/js/withdraw.js?v=20160603" type="text/javascript"></script>
+ 
+</html>

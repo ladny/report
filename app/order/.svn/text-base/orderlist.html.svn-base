@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>我的订单</title>
+		<meta name="apple-mobile-web-app-title" content="我的订单">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="stylesheet" type="text/css" href="../../static/common/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link href="../../static/common/mui/css/mui.min.css" rel="stylesheet" />
+		<link href="../../static/common/mui/css/mui.picker.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/common.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/public.css?v=20160606" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/order.css?v=20160606" />
+	</head>
+
+	<body>
+		<div class="header blue-header">
+				<a href="#" class="header-white-icon"></a>
+				<span class="header-back-white">
+					我的订单
+				</span>
+		</div>
+		
+
+		<!--<div class="order-tap">
+			<ul>
+				<li class="order-tap-on">
+					<span class="order-tap-name">评估订单</span>
+				</li>
+				<li>
+					<span class="order-tap-name">贷款订单</span>
+				</li>
+			</ul>
+		</div>-->
+
+		<div class="order-tap order-tap-three">
+			<ul>
+				<li class="order-tap-on">
+					<span class="order-tap-name">评估订单</span>
+				</li>
+				<li>
+					<span class="order-tap-name">贷款订单</span>
+				</li>
+				<li>
+					<span class="order-tap-name">我的抢单</span>
+				</li>
+			</ul>
+		</div>
+
+		<!--order-estimate-->
+		<div class="order-topcon">
+			<div>
+				<div class="order-tap-sub">
+					<ul>
+						<li><a href="#" class="tap-sub-active">全部</a></li>
+						<li><a href="#">评估中</a></li>
+						<li><a href="#">估值完成</a></li>
+						<li><a href="#">无效单</a></li>
+					</ul>
+				</div>
+
+				<div class="order-list">
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typecar"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">评估中</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								车辆评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typehouse"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">评估中</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								房产评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typecar"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">估值完成</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预  授  信（万） : 1,234.10
+							</div>
+							<a class="order-list-btn order-list-bluebtn" href="#">
+						预约服务
+					</a>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typecar"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">估值完成</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								无效原因: 地址信息不完地址信息不完地址信息不完地址信息不完<br/> 备　　注: 请您核对信息请您核对信息请您核对信息请您核对信息
+							</div>
+							<a class="order-list-btn order-list-bluebtn" href="#">
+						预约服务
+					</a>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typehouse"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">估值完成</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								房产评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预  授  信（万）: 1,234.10
+							</div>
+							<a class="order-list-btn order-list-redbtn" href="#">
+						预约服务
+					</a>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-name">
+							<i class="order-list-typehouse"></i>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">无效单</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-msg">
+								车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估车辆评估<br /> 提交时间：
+								<i class="f26">2016-04-17  14:34:26</i>
+							</div>
+							<div class="order-list-pic">
+								<img src="../../static/imgs/ordercar1.png"/>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								无效原因: 地址信息不完地址信息不完地址信息不完地址信息不完<br/> 备　　注: 请您核对信息请您核对信息请您核对信息请您核对信息
+							</div>
+							<a class="order-list-btn order-list-redbtn" href="#">
+						重新评估
+					</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div style="display: none;">
+				<div class="order-tap-sub">
+					<ul>
+						<li><a href="#" class="tap-sub-active">全部</a></li>
+						<li><a href="#">跟进中</a></li>
+						<li><a href="#">还款中</a></li>
+						<li><a href="#">已结清</a></li>
+						<li><a href="#">无效单</a></li>
+					</ul>
+				</div>
+				<div class="order-list">
+
+					<div class="order-list-item">
+						<div class="order-list-user">
+							<i class="order-list-icon order-list-icarbg"></i>
+							<span class="order-list-username">张一山</span>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">估值完成</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-usermsg">
+								<div class="order-list-typemsg">
+									<i class="order-list-typecar"></i>
+									<span class="order-list-num">90万</span>
+									<span class="order-list-num">60天</span>
+									<span class="order-list-num">12%</span>
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-addressicon"></i> 北京 海淀
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+								</div>
+							</div>
+							<div class="order-list-tips">
+								<span class="order-list-money">1,234.00</span>
+								<span class="order-list-submsg">成单可返佣（元）</span>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+							</div>
+							<a class="order-list-btn order-list-bluebtn" href="#">
+						预约服务
+					</a>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-user">
+							<i class="order-list-icon order-list-ihousebg"></i>
+							<span class="order-list-username">张一山</span>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">估值完成</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-usermsg">
+								<div class="order-list-typemsg">
+									<i class="order-list-typehouse"></i>
+									<span class="order-list-num">90万</span>
+									<span class="order-list-num">60天</span>
+									<span class="order-list-num">12%</span>
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-addressicon"></i> 北京 海淀
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+								</div>
+							</div>
+							<div class="order-list-tips">
+								<span class="order-list-money">1,234.00</span>
+								<span class="order-list-submsg">成单可返佣（元）</span>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+							</div>
+							<a class="order-list-btn order-list-redbtn" href="#">
+						预约服务
+					</a>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-user">
+							<i class="order-list-icon order-list-icarbg"></i>
+							<span class="order-list-username">张一山</span>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">还款中</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-usermsg">
+								<div class="order-list-typemsg">
+									<i class="order-list-typecar"></i>
+									<span class="order-list-num">90万</span>
+									<span class="order-list-num">60天</span>
+									<span class="order-list-num">12%</span>
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-addressicon"></i> 北京 海淀
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+								</div>
+							</div>
+							<div class="order-list-tips">
+								<span class="order-list-money">1,234.00</span>
+								<span class="order-list-submsg">成单可返佣（元）</span>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+							</div>
+							<i class="backplan-status-light backplan-status-loan"></i>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-user">
+							<i class="order-list-icon order-list-icarbg"></i>
+							<span class="order-list-username">张一山</span>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">已结清</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-usermsg">
+								<div class="order-list-typemsg">
+									<i class="order-list-typecar"></i>
+									<span class="order-list-num">90万</span>
+									<span class="order-list-num">60天</span>
+									<span class="order-list-num">12%</span>
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-addressicon"></i> 北京 海淀
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+								</div>
+							</div>
+							<div class="order-list-tips">
+								<span class="order-list-money">1,234.00</span>
+								<span class="order-list-submsg">成单可返佣（元）</span>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+							</div>
+						</div>
+					</div>
+
+					<div class="order-list-item">
+						<div class="order-list-user">
+							<i class="order-list-icon order-list-icarbg"></i>
+							<span class="order-list-username">张一山</span>
+							<span class="order-list-no">20160330123456</span>
+							<span class="order-list-status">还款中</span>
+						</div>
+						<div class="order-list-main">
+							<div class="order-list-usermsg">
+								<div class="order-list-typemsg">
+									<i class="order-list-typecar"></i>
+									<span class="order-list-num">90万</span>
+									<span class="order-list-num">60天</span>
+									<span class="order-list-num">12%</span>
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-addressicon"></i> 北京 海淀
+								</div>
+								<div class="order-list-timeaddress">
+									<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+								</div>
+							</div>
+							<div class="order-list-tips">
+								<span class="order-list-money">1,234.00</span>
+								<span class="order-list-submsg">成单可返佣（元）</span>
+							</div>
+						</div>
+						<div class="oredr-list-remark">
+							<div class="order-list-remarkmsg">
+								资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+							</div>
+							<i class="backplan-status-serious backplan-status-loan"></i>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		    <div style="display: none;">
+			<div class="order-tap-sub">
+				<ul>
+					<li><a href="#" class="tap-sub-active">全部</a></li>
+					<li><a href="#">跟进中</a></li>
+					<li><a href="#">还款中</a></li>
+					<li><a href="#">已结清</a></li>
+					<li><a href="#">无效单</a></li>
+				</ul>
+			</div>
+			<div class="order-list">
+
+				<div class="order-list-item">
+					<div class="order-list-user">
+						<i class="order-list-icon order-list-icarbg"></i>
+						<span class="order-list-username">张一山</span>
+						<span class="order-list-no">20160330123456</span>
+						<span class="order-list-status">跟进中</span>
+					</div>
+					<div class="order-list-main">
+						<div class="order-list-usermsg">
+							<div class="order-list-typemsg">
+								<i class="order-list-typecar"></i>
+								<span class="order-list-num">90万</span>
+								<span class="order-list-num">60天</span>
+								<span class="order-list-num">12%</span>
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-addressicon"></i> 北京 海淀
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+							</div>
+						</div>
+						<div class="order-list-tips">
+							<span class="order-list-money">1,234.00</span>
+							<span class="order-list-submsg">成单可返佣（元）</span>
+						</div>
+					</div>
+					<div class="oredr-list-remark">
+						<div class="order-list-remarkmsg">
+							资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+						</div>
+						<a class="order-list-btn order-list-bluebtn" href="#">
+						跟进订单
+					</a>
+					</div>
+				</div>
+
+				<div class="order-list-item">
+					<div class="order-list-user">
+						<i class="order-list-icon order-list-ihousebg"></i>
+						<span class="order-list-username">张一山</span>
+						<span class="order-list-no">20160330123456</span>
+						<span class="order-list-status">跟进中</span>
+					</div>
+					<div class="order-list-main">
+						<div class="order-list-usermsg">
+							<div class="order-list-typemsg">
+								<i class="order-list-typehouse"></i>
+								<span class="order-list-num">90万</span>
+								<span class="order-list-num">60天</span>
+								<span class="order-list-num">12%</span>
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-addressicon"></i> 北京 海淀
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+							</div>
+						</div>
+						<div class="order-list-tips">
+							<span class="order-list-money">1,234.00</span>
+							<span class="order-list-submsg">成单可返佣（元）</span>
+						</div>
+					</div>
+					<div class="oredr-list-remark">
+						<div class="order-list-remarkmsg">
+							资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+						</div>
+						<a class="order-list-btn order-list-redbtn" href="#">
+						跟进订单
+					</a>
+					</div>
+				</div>
+
+				<div class="order-list-item">
+					<div class="order-list-user">
+						<i class="order-list-icon order-list-icarbg"></i>
+						<span class="order-list-username">张一山</span>
+						<span class="order-list-no">20160330123456</span>
+						<span class="order-list-status">还款中</span>
+					</div>
+					<div class="order-list-main">
+						<div class="order-list-usermsg">
+							<div class="order-list-typemsg">
+								<i class="order-list-typecar"></i>
+								<span class="order-list-num">90万</span>
+								<span class="order-list-num">60天</span>
+								<span class="order-list-num">12%</span>
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-addressicon"></i> 北京 海淀
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+							</div>
+						</div>
+						<div class="order-list-tips">
+							<span class="order-list-money">1,234.00</span>
+							<span class="order-list-submsg">成单可返佣（元）</span>
+						</div>
+					</div>
+					<div class="oredr-list-remark">
+						<div class="order-list-remarkmsg">
+							资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+						</div>
+					</div>
+				</div>
+
+				<div class="order-list-item">
+					<div class="order-list-user">
+						<i class="order-list-icon order-list-icarbg"></i>
+						<span class="order-list-username">张一山</span>
+						<span class="order-list-no">20160330123456</span>
+						<span class="order-list-status">已结清</span>
+					</div>
+					<div class="order-list-main">
+						<div class="order-list-usermsg">
+							<div class="order-list-typemsg">
+								<i class="order-list-typecar"></i>
+								<span class="order-list-num">90万</span>
+								<span class="order-list-num">60天</span>
+								<span class="order-list-num">12%</span>
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-addressicon"></i> 北京 海淀
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+							</div>
+						</div>
+						<div class="order-list-tips">
+							<span class="order-list-money">1,234.00</span>
+							<span class="order-list-submsg">成单可返佣（元）</span>
+						</div>
+					</div>
+					<div class="oredr-list-remark">
+						<div class="order-list-remarkmsg">
+							资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+						</div>
+					</div>
+				</div>
+
+				<div class="order-list-item">
+					<div class="order-list-user">
+						<i class="order-list-icon order-list-icarbg"></i>
+						<span class="order-list-username">张一山</span>
+						<span class="order-list-no">20160330123456</span>
+						<span class="order-list-status">无效单</span>
+					</div>
+					<div class="order-list-main">
+						<div class="order-list-usermsg">
+							<div class="order-list-typemsg">
+								<i class="order-list-typecar"></i>
+								<span class="order-list-num">90万</span>
+								<span class="order-list-num">60天</span>
+								<span class="order-list-num">12%</span>
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-addressicon"></i> 北京 海淀
+							</div>
+							<div class="order-list-timeaddress">
+								<i class="order-list-timeicon"></i> 2016-2-18　14:34:26
+							</div>
+						</div>
+						<div class="order-list-tips">
+							<span class="order-list-money">1,234.00</span>
+							<span class="order-list-submsg">成单可返佣（元）</span>
+						</div>
+					</div>
+					<div class="oredr-list-remark">
+						<div class="order-list-remarkmsg">
+							资产估值（万）: 1,234.10<br/> 预 授 信（万）: 1,234.10
+						</div>
+					</div>
+				</div>
+
+			</div>
+			</div>
+
+		</div>
+		<!--uncon default -->
+		<!--<div class="order-uncon">
+			<div class="order-unconbg"></div>
+			<p class="order-unconmsg">这里没有相关记录呢~</p>
+		</div>-->
+
+	</body>
+	<script src="../../static/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/common/fastclick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/common/mui/js/mui.min.js"></script>
+	<script src="../../static/common/mui/js/mui.picker.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init();
+	</script>
+	<script src="../../static/js/public.js?v=20160603" type="text/javascript"></script>
+	<script src="../../static/js/order.js?v=20160606" type="text/javascript" charset="utf-8"></script>
+
+</html>

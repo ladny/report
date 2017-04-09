@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>修改手机号</title>
+		<meta name="apple-mobile-web-app-title" content="修改手机号">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="../../static/common/normalize.css?v=20160603" />
+		<link rel="stylesheet" type="text/css" href="../../static/common/font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../../static/common/mui/css/mui.min.css?v=20160603" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/common.css?v=20160603" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/public.css?v=20160727" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/my_info.css" />
+	</head>
+	<body>
+		<div class="header white-header">
+				<a href="#" class="header-gray-icon"></a>
+				<span class="header-back">
+					修改手机号
+				</span>
+		</div>
+		<div class="mobile-box">
+			<div class="mobile-bgimg"></div>
+			<div class="mobile-nummsg">您绑定的手机号码：188****1100</div>
+		</div>
+		<div class="order-btn-gap"><a href="#" class="order-btn-blue">修改手机号</a></div>
+	</body>
+	<script src="../../static/common/zepto.min.js?v=20160603" type="text/javascript"></script>
+	<script src="../../static/common/fastclick.js?v=20160603"></script>
+	<script src="../../static/common/mui/js/mui.min.js?v=20160603"></script>
+	<script src="../../static/js/public.js?v=20160603" type="text/javascript"></script>
+</html>
